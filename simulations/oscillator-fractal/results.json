@@ -1,0 +1,259 @@
+{
+  "host": "Red",
+  "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.39",
+  "numpy": "2.5.3",
+  "scope": "Classical CPU simulation; scalar NumPy dispatch versus batched NumPy; setup excluded equally.",
+  "assumptions": [
+    "One graphene-microtubule oscillator per VM; four logical qubits each.",
+    "Independent oscillator states; no cross-oscillator entanglement represented.",
+    "Braid generator embedded on first logical qubit, other three retained.",
+    "Controller phase is phenomenological, not calibrated to physical material.",
+    "Spectral tones are normalized mathematical carriers, not measured THz modes."
+  ],
+  "braid_word": [
+    1,
+    2,
+    -1,
+    2,
+    1,
+    -2,
+    1,
+    2,
+    1,
+    2,
+    -1,
+    2,
+    1,
+    -2,
+    1,
+    2
+  ],
+  "primes": [
+    2,
+    3,
+    5,
+    13,
+    89
+  ],
+  "carrier_crosstalk": 3.2792267810833425e-16,
+  "braid_noncommutator": 1.7989074399478675,
+  "results": [
+    {
+      "horizontal_depth": 1,
+      "vertical_depth": 1,
+      "vms": 4,
+      "oscillators": 4,
+      "qubits_per_oscillator": 4,
+      "logical_qubits": 16,
+      "state_bytes": 1024,
+      "scalar_seconds": 0.0007626080005138647,
+      "batch_seconds": 0.0001697490006336011,
+      "speedup": 4.492562534491349,
+      "oscillators_per_second": 23564.203530328276,
+      "max_amplitude_error": 2.0630814761166827e-16,
+      "max_norm_error": 1.3322676295501878e-15,
+      "trials": {
+        "scalar": [
+          0.0010171389985771384,
+          0.0007626080005138647,
+          0.0007587959989905357,
+          0.0007737099986115936,
+          0.000740711999242194
+        ],
+        "batch": [
+          0.00018396599989500828,
+          0.0001687260009930469,
+          0.00017143000150099397,
+          0.00016738199701649137,
+          0.0001697490006336011
+        ]
+      }
+    },
+    {
+      "horizontal_depth": 3,
+      "vertical_depth": 1,
+      "vms": 16,
+      "oscillators": 16,
+      "qubits_per_oscillator": 4,
+      "logical_qubits": 64,
+      "state_bytes": 4096,
+      "scalar_seconds": 0.0030759520013816655,
+      "batch_seconds": 0.0002686810003069695,
+      "speedup": 11.448342078030727,
+      "oscillators_per_second": 59550.17281355925,
+      "max_amplitude_error": 3.663841114510704e-16,
+      "max_norm_error": 1.1102230246251565e-15,
+      "trials": {
+        "scalar": [
+          0.003136903000267921,
+          0.003355959997861646,
+          0.002966740998090245,
+          0.0030759520013816655,
+          0.0030359999982465524
+        ],
+        "batch": [
+          0.0002669570021680556,
+          0.0002778770031000022,
+          0.0002686810003069695,
+          0.00025812999956542626,
+          0.00027357900034985505
+        ]
+      }
+    },
+    {
+      "horizontal_depth": 3,
+      "vertical_depth": 3,
+      "vms": 64,
+      "oscillators": 64,
+      "qubits_per_oscillator": 4,
+      "logical_qubits": 256,
+      "state_bytes": 16384,
+      "scalar_seconds": 0.011242513999604853,
+      "batch_seconds": 0.0005406199998105876,
+      "speedup": 20.795593954244747,
+      "oscillators_per_second": 118382.59779960624,
+      "max_amplitude_error": 2.5589376332604516e-16,
+      "max_norm_error": 1.3322676295501878e-15,
+      "trials": {
+        "scalar": [
+          0.01214258000254631,
+          0.01035967999996501,
+          0.010589115998300258,
+          0.011242513999604853,
+          0.011760540000977926
+        ],
+        "batch": [
+          0.000567379996937234,
+          0.0005240440004854463,
+          0.0005623239994747564,
+          0.0005148149975866545,
+          0.0005406199998105876
+        ]
+      }
+    },
+    {
+      "horizontal_depth": 5,
+      "vertical_depth": 3,
+      "vms": 256,
+      "oscillators": 256,
+      "qubits_per_oscillator": 4,
+      "logical_qubits": 1024,
+      "state_bytes": 65536,
+      "scalar_seconds": 0.04108622700005071,
+      "batch_seconds": 0.0017141219977929723,
+      "speedup": 23.96925484472606,
+      "oscillators_per_second": 149347.59622104745,
+      "max_amplitude_error": 3.663841114510704e-16,
+      "max_norm_error": 1.3322676295501878e-15,
+      "trials": {
+        "scalar": [
+          0.041774897999857785,
+          0.039194821001729,
+          0.04147042100157705,
+          0.03973584899722482,
+          0.04108622700005071
+        ],
+        "batch": [
+          0.0017199880021507852,
+          0.0017141219977929723,
+          0.0018221560021629557,
+          0.0016525949977221899,
+          0.0016527570005564485
+        ]
+      }
+    },
+    {
+      "horizontal_depth": 5,
+      "vertical_depth": 5,
+      "vms": 1024,
+      "oscillators": 1024,
+      "qubits_per_oscillator": 4,
+      "logical_qubits": 4096,
+      "state_bytes": 262144,
+      "scalar_seconds": 0.16082361200096784,
+      "batch_seconds": 0.0063335019985970575,
+      "speedup": 25.392525657462823,
+      "oscillators_per_second": 161679.90477098257,
+      "max_amplitude_error": 3.3422138886441676e-16,
+      "max_norm_error": 1.7763568394002505e-15,
+      "trials": {
+        "scalar": [
+          0.16082361200096784,
+          0.15991653900346137,
+          0.16699457699724007,
+          0.16109788800167735,
+          0.157208044998697
+        ],
+        "batch": [
+          0.0062294449999171775,
+          0.006046995000360766,
+          0.008119316000374965,
+          0.006337703998724464,
+          0.0063335019985970575
+        ]
+      }
+    },
+    {
+      "horizontal_depth": 7,
+      "vertical_depth": 5,
+      "vms": 4096,
+      "oscillators": 4096,
+      "qubits_per_oscillator": 4,
+      "logical_qubits": 16384,
+      "state_bytes": 1048576,
+      "scalar_seconds": 0.6495694770019327,
+      "batch_seconds": 0.029519894000259228,
+      "speedup": 22.004465090431168,
+      "oscillators_per_second": 138753.88576815455,
+      "max_amplitude_error": 3.663841114510704e-16,
+      "max_norm_error": 2.4424906541753444e-15,
+      "trials": {
+        "scalar": [
+          0.6495694770019327,
+          0.6472646910006006,
+          0.6520328420010628,
+          0.6358423510027933,
+          0.6544613719997869
+        ],
+        "batch": [
+          0.029519894000259228,
+          0.02994821399988723,
+          0.028604212999198353,
+          0.03114381499835872,
+          0.027964529999735532
+        ]
+      }
+    },
+    {
+      "horizontal_depth": 7,
+      "vertical_depth": 7,
+      "vms": 16384,
+      "oscillators": 16384,
+      "qubits_per_oscillator": 4,
+      "logical_qubits": 65536,
+      "state_bytes": 4194304,
+      "scalar_seconds": 2.6443685499980347,
+      "batch_seconds": 0.14064459400105989,
+      "speedup": 18.801778829679773,
+      "oscillators_per_second": 116492.21298812616,
+      "max_amplitude_error": 3.895680680159941e-16,
+      "max_norm_error": 1.9984014443252818e-15,
+      "trials": {
+        "scalar": [
+          2.6443685499980347,
+          2.626039455000864,
+          2.5975413369997113,
+          2.8966032639982586,
+          2.7381663249980193
+        ],
+        "batch": [
+          0.1380570360015554,
+          0.14064459400105989,
+          0.20113086000128533,
+          0.17789349499798845,
+          0.13879843399990932
+        ]
+      }
+    }
+  ]
+}

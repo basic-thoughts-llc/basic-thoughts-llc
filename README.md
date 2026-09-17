@@ -4,7 +4,7 @@
 
 **Systems architecture · Python services · AI orchestration · Compute experiments · Evidence-driven engineering**
 
-I develop **OMEGA**, a computing ecosystem connecting governed AI orchestration,
+I’m developing **OMEGA**, a computing ecosystem connecting governed AI orchestration,
 knowledge workflows, operator interfaces, and MAR twin-core substrate research.
 This portfolio shows the products, the engineering artifacts behind them, and
 the results you can inspect—not just a list of technologies.
@@ -55,3 +55,7 @@ work awaiting integration.
 **For employers and technical collaborators:** use the [evaluation guide](FOR-EMPLOYERS.md)
 to choose an artifact-led discussion about systems integration, Python services,
 knowledge workflows, performance measurement, or research engineering.
+
+### Four-qubit oscillator simulation
+
+[Run the recursive manifold experiment](simulations/oscillator-fractal/README.md): four simulated qubits per modeled graphene–microtubule oscillator; separate horizontal and vertical addresses; 16 ordered phase/braid stages. Local CPU batching reached 25.39× versus individual NumPy dispatch at 1,024 oscillators. Full timings and the cases below that peak are published; 59× was not reached.
