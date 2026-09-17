@@ -1,0 +1,5 @@
+scenario,median_ms,speedup_vs_reference,cosine_vs_reference
+reference_tokenwise,0.6128250006440794,1.0,1.0
+expert_grouped_same_math,0.5971819991827942,1.0261946968975817,1.0
+expert_grouped_cached_topology,0.5431720001070062,1.128233783264512,1.0
+arbitrary_half_lane_drop,1.7574960002093576,0.3486921168361567,0.7159227132797241

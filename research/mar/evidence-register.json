@@ -1,0 +1,32 @@
+{
+  "edition": "2026-09-11",
+  "sources": [
+    {
+      "public_id": "S1",
+      "title": "OMEGA MAR Twin-Core Architecture Evidence Deck \u2014 2026-08-05",
+      "source_document_date": "2026-08-05",
+      "recovery_date": "2026-09-11",
+      "hash_scope": "recovered UTF-8 text extraction; not the original presentation/document binary",
+      "sha256": "43d4a25d1d890d27758dbe510b070c014a8d89e896dea84cb7cdcbb653bafac8",
+      "original_material": "withheld from public release"
+    },
+    {
+      "public_id": "S2",
+      "title": "OMEGA MAR Twin-Core Architecture Technical Paper \u2014 2026-08-05",
+      "source_document_date": "2026-08-05",
+      "recovery_date": "2026-09-11",
+      "hash_scope": "recovered UTF-8 text extraction; not the original presentation/document binary",
+      "sha256": "ce63173c5b10a7fc74da30b86a0b015be763438bb4714971989a3e86f9a0a2d0",
+      "original_material": "withheld from public release"
+    }
+  ],
+  "recorded_source_checksums": [
+    {
+      "public_id": "R1",
+      "artifact": "withheld simulation source referenced by S2",
+      "sha256": "e875480be7f8dba43f84142e595b50217813484fec8910230f7d7f5d3955f65c",
+      "status": "recorded in S2; original source bytes not independently verified in this publication pass"
+    }
+  ],
+  "meaning": "Checksums identify exact byte sequences. They do not establish scientific validity, authorship, ownership, or historical creation dates."
+}

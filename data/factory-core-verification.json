@@ -1,0 +1,17 @@
+{
+  "kind": "Selected fields from recorded local integration test",
+  "recorded_run_date": "2026-09-16",
+  "source_receipt_sha256": "1a32d8e463cb2056fc92b06debdef55108d7989d50800591bb2d5fe3d9a77616",
+  "offline_install": true,
+  "core_smoke": true,
+  "stopped": true,
+  "whole_platform_accepted": false,
+  "install_exit_status": 0,
+  "sentinel_ledger_verified": true,
+  "ledger_records_in_test": 3,
+  "checked_tcp_listeners_released": 5,
+  "simulation_and_mock_behavior_preserved": true,
+  "native_saturn_compute_verified": false,
+  "limits": "Original receipt is local/private. This is a derived summary, not independent attestation, a new run, native compute validation, or production deployment.",
+  "omitted": "Raw process logs, PIDs, runtime paths, network addresses and environment details."
+}

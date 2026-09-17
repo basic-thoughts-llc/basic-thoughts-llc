@@ -1,0 +1,4 @@
+scenario,modeled_ms,remote_weight_fraction,controller_ms_per_token,truth_state
+centralized_unpinned_memory_service,106.62739810231444,0.5,0.0,SIMULATED_NUMA_DIGITAL_TWIN
+centralized_plus_per_token_MAR,237.48086309555023,0.5,126.55376400107343,SIMULATED_NUMA_DIGITAL_TWIN
+dual_local_workers_plus_persistent_MAR,38.186238051616456,0.0,1.9774025625167724,SIMULATED_NUMA_DIGITAL_TWIN

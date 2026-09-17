@@ -1,0 +1,68 @@
+{
+  "edition": "2026-09-14 revision 2",
+  "upstream_branch_commit": "ad69176622cb9b44450497f07f6fc3e3cf01714c",
+  "published_files": [
+    {
+      "path": "data/expert-routing.csv",
+      "sha256": "2c6c088037cf3851c683f1be8a069458c7896f629b5c674165d98877599c62e0"
+    },
+    {
+      "path": "data/hp15-baseline.json",
+      "sha256": "181bd20c8e459baf9440055c7e299dcec6b61d730a7978e73f349510ed80e26b"
+    },
+    {
+      "path": "data/hp15-performance.json",
+      "sha256": "909ee2dca69740de5f1cdab1f1d8d1fcd3ffc661c025cab83220be227346225d"
+    },
+    {
+      "path": "data/mar-reported-comparison.csv",
+      "sha256": "254c8796265a44b1e9edf5f8f1dc3acf30680a14344178e09dba2778b168f997"
+    },
+    {
+      "path": "data/numa-scenarios.csv",
+      "sha256": "ec84cf63ec9115da28cfb088dd5ed5ff41509e7b717c3c6d1d7ced02ed95db43"
+    },
+    {
+      "path": "reproduce/hp15-benchmark-tested.py",
+      "sha256": "dcf8103eebea9785f47a40ee19f737fb3f72358d46de7cdece5a2ef6afd3e6e2"
+    }
+  ],
+  "source_documents": [
+    {
+      "title": "MAR architecture paper",
+      "document_date": "2026-08-05",
+      "sha256": "ce63173c5b10a7fc74da30b86a0b015be763438bb4714971989a3e86f9a0a2d0",
+      "hash_scope": "inspected recovered text bytes",
+      "public_source": "selected summary; complete source private"
+    },
+    {
+      "title": "MAR 236B / NUMA Full Rerun and Engineering Result",
+      "document_date": "2026-07-13",
+      "sha256": "0b5e21de699793f209057067218b363cd23d091abd050d8c4b7ae858969b099e",
+      "hash_scope": "inspected recovered text bytes",
+      "public_source": "selected summary; complete source private"
+    },
+    {
+      "title": "LISA \u2014 System Architecture, Purpose, and Technical Foundation",
+      "document_date": "2026-05",
+      "sha256": "11564488ea142a1c5ce94a6b07bcea54604f5fa79ab5436bea10ea713c98014d",
+      "hash_scope": "inspected recovered text bytes",
+      "public_source": "selected summary; complete source private"
+    },
+    {
+      "title": "BTOL Governance & Access Specification",
+      "document_date": null,
+      "sha256": "3e0fea088a1688fd3e0f3376ad75b9c2cf8d0c0cbc158ad36ecbda0386468fbe",
+      "hash_scope": "inspected recovered text bytes",
+      "public_source": "selected summary; complete source private"
+    }
+  ],
+  "artifact_notes": {
+    "data/expert-routing.csv": "Exact recovered CSV text bytes; four recorded proxy scenario summaries.",
+    "data/numa-scenarios.csv": "Exact recovered CSV text bytes; simulated scenarios.",
+    "data/hp15-baseline.json": "Exact GitHub file bytes from hp15-readiness-20260913 at the pinned commit.",
+    "data/hp15-performance.json": "Exact GitHub file bytes from the same pinned commit, separate performance-profile trial.",
+    "data/mar-reported-comparison.csv": "New transcription of five detailed-run metrics from section 8 / appendix A of the MAR architecture paper. Original simulation trace not included.",
+    "reproduce/hp15-benchmark-tested.py": "Exact baseline source; SHA-256 matches source_sha256 in hp15-baseline.json."
+  }
+}

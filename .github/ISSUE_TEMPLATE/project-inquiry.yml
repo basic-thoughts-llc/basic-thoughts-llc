@@ -1,0 +1,31 @@
+name: Project inquiry
+description: Discuss a software problem or ask about the research.
+title: "Project inquiry: "
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for your interest in Basic Thoughts LLC. This conversation is public. Please leave out confidential files, credentials, and personal information."
+  - type: dropdown
+    id: interest
+    attributes:
+      label: Area of interest
+      options:
+        - OMEGA systems integration
+        - MAR architecture and compute evaluation
+        - Agent routing and knowledge acquisition
+        - Monument notes and archive workflows
+        - Technical or commercial collaboration
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: What would you like to accomplish?
+      description: Describe the problem and what a useful result would look like.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Relevant context and timeline
+      description: Include only information you are comfortable sharing publicly.
