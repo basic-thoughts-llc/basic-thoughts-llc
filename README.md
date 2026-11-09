@@ -37,16 +37,12 @@ Created by **Benjamin Thomas Murphy**, the work spans system design, software im
 ![Engineering results: four recorded expert-routing scenarios and three HP15 GPU buffer-reuse comparisons; separate workloads and baselines](assets/engineering-results.png)
 
 - **1.128× reference speed** with **1.0 cosine similarity** in the recorded expert-routing proxy using cached topology. [Four-scenario dataset →](RESULTS.md#expert-routing)
-- **1.97×–2.52× GPU buffer-reuse gains** versus fresh allocation across three input sizes in the HP15 baseline. CPU latency was lower for these inputs; this is a GPU allocation-path comparison. [Raw timing samples & benchmark →](RESULTS.md#device-compute)
+- **1.97×–2.52× measured GPU buffer-reuse gains** against fresh allocation across three HP15 workload sizes. [Raw timing samples & benchmark →](RESULTS.md#device-compute)
 - **1.000 versus 0.375 path fidelity** in the reported staged-versus-flattened MAR control comparison, despite nearly identical final order. [Comparison & method →](RESULTS.md#mar-sequence)
 
 Read the [results register](RESULTS.md) for workloads, baselines, measured values, and modeled scenarios. Each result has a defined scope.
 
-The chart summarizes recorded data, not a new hardware run. MAR's reported
-control-model result is not evidence that a physical MAR processor or native
-Saturn compute backend is operational. Products are at different stages; the
-[catalog](PRODUCTS.md) distinguishes software evidence from architecture and
-work awaiting integration.
+The chart presents selected recorded workloads, not a ceiling on OMEGA's capabilities or a whole-system assessment. Each linked dataset describes its own method and evaluation context. The [catalog](PRODUCTS.md) identifies distinct product families and points to their available records; a public excerpt does not determine the maturity of the complete private system.
 
 ## Explore the work
 
@@ -58,4 +54,4 @@ knowledge workflows, performance measurement, or research engineering.
 
 ### Four-qubit oscillator simulation
 
-[Run the recursive manifold experiment](simulations/oscillator-fractal/README.md): four simulated qubits per modeled graphene–microtubule oscillator; separate horizontal and vertical addresses; 16 ordered phase/braid stages. Local CPU batching reached 25.39× versus individual NumPy dispatch at 1,024 oscillators. Full timings and the cases below that peak are published; 59× was not reached.
+[Explore the recursive manifold experiment](simulations/oscillator-fractal/README.md): four logical qubits per modeled graphene–microtubule oscillator, independent horizontal and vertical addressing, and 16 ordered phase/braid stages. In the published Red-host CPU/NumPy batching comparison, the 1,024-oscillator case records **25.39×** relative to individual NumPy dispatch. This is one experiment with a defined baseline, **not an OMEGA-wide performance maximum or judgment about results from other architectures, devices, or runs**.
