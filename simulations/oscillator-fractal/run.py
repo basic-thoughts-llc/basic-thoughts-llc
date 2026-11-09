@@ -84,7 +84,7 @@ def main():
     fig, axes = plt.subplots(2,2,figsize=(13,9),layout='constrained')
     n = [r['vms'] for r in rows]
     axes[0,0].plot(n,[r['speedup'] for r in rows],'o-',color='#54ded4')
-    for target in (25,59): axes[0,0].axhline(target,ls='--',label=f'{target}× target',alpha=.6)
+    axes[0,0].axhline(1,ls='--',label='1× scalar reference',alpha=.6)
     axes[0,0].set(xscale='log',xlabel='VMs / oscillators',ylabel='Scalar time ÷ batch time',title='Measured equal-work speedup')
     axes[0,0].legend()
     for key in ('scalar','batch'):
