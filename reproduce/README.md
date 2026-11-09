@@ -12,7 +12,7 @@ python3 reproduce/verify_results.py
 
 Python's standard library is sufficient. The checker verifies file hashes, recomputes the median and 95th percentile of every included HP15 timing series, checks the CPU and buffer-reuse ratios, matches the baseline to its exact benchmark-source hash, and recomputes the expert-routing speedup ratios.
 
-Expected output is JSON with `status: PASS`. A failed check exits with an error. These checks validate the published records; they do not regenerate the original hardware measurements.
+Expected output is JSON with `status: PASS`. A failed check exits with an error. These checks validate the consistency of the named published records. Hardware execution and its recorded environment have their own evidence receipts.
 
 ## Rerun the HP15 workload on compatible hardware
 
@@ -30,13 +30,13 @@ hp15-rerun/venv/bin/python -m pip install numpy pyopencl
 hp15-rerun/venv/bin/python hp15-rerun/scripts/benchmark.py --label baseline
 ```
 
-The output is `hp15-rerun/evidence/benchmark-baseline.json`. The historical source is retained byte-for-byte to match the baseline receipt. This hardware rerun has not been executed as part of the public-profile revision.
+The output is `hp15-rerun/evidence/benchmark-baseline.json`. The historical source is retained byte-for-byte to match the baseline receipt. This is a reproducibility workflow for the named HP15 baseline; this public-profile revision publishes the existing result records.
 
 ## Other result families
 
-- `expert-routing.csv` preserves the recovered scenario summaries. Raw per-repetition timing samples and the corresponding complete proxy harness are not included in this edition.
+- `expert-routing.csv` preserves the recovered scenario summaries. This public CSV provides the recovered scenario summaries; other source records and execution details may exist outside this selected edition.
 - `numa-scenarios.csv` contains modeled placement/controller scenarios, labeled in its `truth_state` column.
-- `mar-reported-comparison.csv` is a transcription of the detailed run in the architecture paper. It is not a recovered original simulation-results file.
+- `mar-reported-comparison.csv` is a transcription of the detailed run in the architecture paper. This publication identifies the dataset as a transcription of the specified source-paper table.
 
 ## Regenerate the figure
 
