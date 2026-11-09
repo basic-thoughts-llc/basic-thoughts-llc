@@ -40,9 +40,7 @@ The checker validates published record consistency; the related experimental and
 - Cached-topology routing records **1.128× reference execution rate** at cosine
   similarity **1.0** in its recorded routing workload.
 - GPU buffer reuse records **1.97×–2.52×** improvement relative to fresh GPU buffers in three HP15 test cases.
-- The reported MAR control comparison separates sequence-gate fidelity
-  (**1.000 vs 0.375**) despite similar final order. Original traces were not
-  published in the linked research record; it is a distinct staged-control comparison.
+- The recorded MAR staged-control comparison separates sequence-gate fidelity (**1.000 vs 0.375**) despite similar final order. [The linked research record](RESULTS.md#mar-sequence) documents the specific comparison and its source context.
 
 ## Authorship and evaluation
 
