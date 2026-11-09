@@ -35,7 +35,7 @@ OMEGA is the umbrella architecture. The systems and research lines below retain 
 
 | Name | Role in this portfolio | Boundary |
 | :--- | :--- | :--- |
-| **Veritas Aquanias** | Operator-defined audit platform, separate from OMEGA and MAR. | Audit platform architecture and source lineage; the public page is a selection of the wider implementation portfolio. |
+| **Liberty Maps / BTO VERITAS AEQUITAS lineage** | Operator-defined audit platform and source-preserving audit workflow, distinct from MAR and other OMEGA engines. | Audit architecture, full-chain evidence mapping, source lineage, and operator verification records. |
 | **BTO Provider Accountability** | Scope, claims and execution-receipt review workflow. | Reporting and accountability workflows, including scope, claims and execution receipts. |
 | **AVL Watchtower** | Intended independent host process/network observer. | Separate host process/network observation lineage with its own identity and evidence records, distinct from Sentinel. |
 
