@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 580" role="img" aria-labelledby="title desc">
+<title id="title">OMEGA recursive oscillator experiment, recorded CPU/NumPy batching ratios</title>
+<desc id="desc">Seven Red-host scalar-versus-batched NumPy comparisons, spanning four to 16,384 modeled oscillators. Each bar shows one timing ratio; this is not a system-wide performance limit.</desc>
+<rect width="1180" height="580" fill="#0c172b"/>
+<text x="68" y="58" fill="#d5f9ff" font-family="Arial,sans-serif" font-size="34" font-weight="700">Ω / Recursive Oscillator · CPU batching</text>
+<text x="68" y="92" fill="#8fb6d1" font-family="Arial,sans-serif" font-size="18">Red host • seven measured NumPy workload sizes • scalar median ÷ batched median</text>
+<line x1="88" y1="420" x2="1114" y2="420" stroke="#2e445a" stroke-width="1"/>
+<text x="76" y="426" fill="#9bc5d0" text-anchor="end" font-size="16" font-family="Arial,sans-serif">0×</text>
+<line x1="88" y1="375" x2="1114" y2="375" stroke="#2e445a" stroke-width="1"/>
+<text x="76" y="381" fill="#9bc5d0" text-anchor="end" font-size="16" font-family="Arial,sans-serif">5×</text>
+<line x1="88" y1="330" x2="1114" y2="330" stroke="#2e445a" stroke-width="1"/>
+<text x="76" y="336" fill="#9bc5d0" text-anchor="end" font-size="16" font-family="Arial,sans-serif">10×</text>
+<line x1="88" y1="285" x2="1114" y2="285" stroke="#2e445a" stroke-width="1"/>
+<text x="76" y="291" fill="#9bc5d0" text-anchor="end" font-size="16" font-family="Arial,sans-serif">15×</text>
+<line x1="88" y1="240" x2="1114" y2="240" stroke="#2e445a" stroke-width="1"/>
+<text x="76" y="246" fill="#9bc5d0" text-anchor="end" font-size="16" font-family="Arial,sans-serif">20×</text>
+<line x1="88" y1="195" x2="1114" y2="195" stroke="#2e445a" stroke-width="1"/>
+<text x="76" y="201" fill="#9bc5d0" text-anchor="end" font-size="16" font-family="Arial,sans-serif">25×</text>
+<line x1="88" y1="150" x2="1114" y2="150" stroke="#2e445a" stroke-width="1"/>
+<text x="76" y="156" fill="#9bc5d0" text-anchor="end" font-size="16" font-family="Arial,sans-serif">30×</text>
+<rect x="118.8" y="379.6" width="85.0" height="40.4" fill="#51d8cc" rx="5"/>
+<text x="161.3" y="366.6" fill="#d4fcfa" font-size="17" font-family="Arial,sans-serif" font-weight="700" text-anchor="middle">4.49×</text>
+<text x="161.3" y="449" fill="#c2d6e6" font-family="Arial,sans-serif" font-size="15" text-anchor="middle">4</text>
+<rect x="265.4" y="317.0" width="85.0" height="103.0" fill="#51d8cc" rx="5"/>
+<text x="307.9" y="304.0" fill="#d4fcfa" font-size="17" font-family="Arial,sans-serif" font-weight="700" text-anchor="middle">11.45×</text>
+<text x="307.9" y="449" fill="#c2d6e6" font-family="Arial,sans-serif" font-size="15" text-anchor="middle">16</text>
+<rect x="411.9" y="232.8" width="85.0" height="187.2" fill="#51d8cc" rx="5"/>
+<text x="454.4" y="219.8" fill="#d4fcfa" font-size="17" font-family="Arial,sans-serif" font-weight="700" text-anchor="middle">20.80×</text>
+<text x="454.4" y="449" fill="#c2d6e6" font-family="Arial,sans-serif" font-size="15" text-anchor="middle">64</text>
+<rect x="558.5" y="204.3" width="85.0" height="215.7" fill="#51d8cc" rx="5"/>
+<text x="601.0" y="191.3" fill="#d4fcfa" font-size="17" font-family="Arial,sans-serif" font-weight="700" text-anchor="middle">23.97×</text>
+<text x="601.0" y="449" fill="#c2d6e6" font-family="Arial,sans-serif" font-size="15" text-anchor="middle">256</text>
+<rect x="705.1" y="191.5" width="85.0" height="228.5" fill="#51d8cc" rx="5"/>
+<text x="747.6" y="178.5" fill="#d4fcfa" font-size="17" font-family="Arial,sans-serif" font-weight="700" text-anchor="middle">25.39×</text>
+<text x="747.6" y="449" fill="#c2d6e6" font-family="Arial,sans-serif" font-size="15" text-anchor="middle">1,024</text>
+<rect x="851.6" y="222.0" width="85.0" height="198.0" fill="#51d8cc" rx="5"/>
+<text x="894.1" y="209.0" fill="#d4fcfa" font-size="17" font-family="Arial,sans-serif" font-weight="700" text-anchor="middle">22.00×</text>
+<text x="894.1" y="449" fill="#c2d6e6" font-family="Arial,sans-serif" font-size="15" text-anchor="middle">4,096</text>
+<rect x="998.2" y="250.8" width="85.0" height="169.2" fill="#51d8cc" rx="5"/>
+<text x="1040.7" y="237.8" fill="#d4fcfa" font-size="17" font-family="Arial,sans-serif" font-weight="700" text-anchor="middle">18.80×</text>
+<text x="1040.7" y="449" fill="#c2d6e6" font-family="Arial,sans-serif" font-size="15" text-anchor="middle">16,384</text>
+<text x="601" y="484" fill="#a4bccc" font-family="Arial,sans-serif" text-anchor="middle" font-size="17">Oscillators / modeled VMs</text>
+<text x="68" y="540" fill="#9db5c7" font-family="Arial,sans-serif" font-size="16">Result scope: individual NumPy dispatch versus batching in one recorded experiment. Not a limit on OMEGA, MAR, PAION, or other compute implementations.</text>
+</svg>
