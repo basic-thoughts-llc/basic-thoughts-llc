@@ -4,12 +4,11 @@
 
 **Systems architecture · Python services · AI orchestration · Compute experiments · Evidence-driven engineering**
 
-I’m developing **OMEGA**, a computing ecosystem connecting governed AI orchestration,
+**Basic Thoughts LLC develops Basic Thought Omega (OMEGA)**, a computing ecosystem connecting governed AI orchestration,
 knowledge workflows, operator interfaces, and MAR twin-core substrate research.
-This portfolio shows the products, the engineering artifacts behind them, and
-the results you can inspect—not just a list of technologies.
+This public portfolio presents **selected** products, supporting engineering artifacts and inspectable results. It is not the full live-device, Factory, tool, connector, skill or commercial inventory.
 
-Created by **Benjamin Thomas Murphy**, the work spans system design, software implementation, device experiments, and computational modeling. Its organizing principle is continuity: preserve the architecture, the sequence of execution, and the evidence of what happened.
+Created and architected by **Benjamin Thomas Murphy**, this work spans software engineering, device experiments, operational integration and computational modeling. Its organizing principle is continuity: preserve the architecture, the sequence of execution, and the evidence of what happened.
 
 **[Product catalog](PRODUCTS.md)** · **[Results & datasets](RESULTS.md)** · **[For employers](FOR-EMPLOYERS.md)** · **[Architecture](ARCHITECTURE.md)**
 
