@@ -8,11 +8,11 @@ The deliverables contain a twin-core architecture paper and evidence deck, an ex
 
 Start with the [results register](RESULTS.md): it brings the quantitative work together and keeps each workload attached to its own baseline and method.
 
-## PAION / RIMAC, Omega X, and Factory orchestration
+## PAION / RIMAC, acquisition and Factory orchestration
 
 Recovered architecture records describe agent routing, acquisition, RAG intake, and their interfaces with the operating environment. The collection includes PAION server and router material, BORG architecture records, and acquisition and department-fleet deliverables. Their role is system coordination and knowledge flow.
 
-**Evidence available:** architecture documents, recovered source and operational records. Current end-to-end integration requires verification on the corresponding Factory host.
+**Evidence available:** architecture documents, implementation source and operational records. Host-specific runtime verification is documented by its corresponding Factory execution receipts.
 
 ## BTOL, LISA, and observability
 
