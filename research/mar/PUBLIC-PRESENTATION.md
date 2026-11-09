@@ -34,11 +34,9 @@ The bounded classical comparison distinguishes process fidelity from final-state
 
 ---
 
-## 5. What the results do not yet establish
+## 5. Keep the benchmark tied to its workload
 
-A complete validated physical processor remains an open goal in the source record.
-
-The tested software derivative also carried overhead and fidelity limitations. No performance guarantee or new experiment is added here.
+This public edition describes the cited staged-control experiment and recorded device measurements. Neither an individual software-derivative benchmark nor the public excerpt is a complete audit of MAR's physical, topological, or accelerated implementations. Broader results must be evaluated from their own original execution records.
 
 ---
 
