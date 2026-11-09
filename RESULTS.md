@@ -20,7 +20,7 @@ The results below come from different workloads. Each table identifies its basel
 | Expert grouped, cached topology | 0.543172 | **1.128234×** | **1.000000** |
 | Arbitrary half-lane drop | 1.757496 | 0.348692× | 0.715923 |
 
-The cached-topology row records approximately **12.82% higher execution rate**, equivalent to **11.37% lower latency**, than the reference in this proxy. All four scenarios remain visible. This is a bounded routing result; a full-model throughput measurement is a separate experiment.
+The cached-topology row records approximately **12.82% higher execution rate**, equivalent to **11.37% lower latency**, than the reference in this recorded routing workload. All four scenarios and their mathematical output comparisons remain visible. This dataset represents its named workload and does not set the performance envelope of the broader OMEGA execution stack.
 
 [Download exact recovered CSV](data/expert-routing.csv). The CSV contains scenario medians and similarity values; per-repetition samples are not included in that recovered file.
 
@@ -35,13 +35,13 @@ The cached-topology row records approximately **12.82% higher execution rate**, 
 | 65,536 | 0.029104 | 0.148553 | 0.373542 | **2.515×** |
 | 1,048,576 | 1.150773 | 1.613513 | 3.182469 | **1.972×** |
 
-Buffer reuse improves the recorded GPU path at all three sizes. The CPU column supplies the separate CPU comparison: CPU latency is lower for these inputs. The result is a device-level allocation experiment, distinct from the MAR substrate implementation.
+Buffer reuse improves the recorded GPU execution path at all three tested input sizes. The table preserves both CPU and GPU measurements for direct comparison in this particular allocation workload. This HP15 test is distinct from broader MAR substrate and accelerator implementations.
 
 Maximum absolute output error in the baseline is **1.1920928955078125e-7**. The raw files include all timing samples, device information, kernel timings, and resident-dispatch timings.
 
 [Baseline raw samples](data/hp15-baseline.json) · [Performance-mode trial raw samples](data/hp15-performance.json) · [Exact baseline benchmark source](reproduce/hp15-benchmark-tested.py)
 
-The performance-mode trial is retained as a separate run; it is not substituted into the baseline table. Current checks recompute statistics from these records. They do not rerun the remote GPU experiment.
+The performance-mode trial and baseline are retained as separate runs. The published checker recomputes statistics from those source records. Device reruns are evaluated using their own execution receipts.
 
 <a id="mar-sequence"></a>
 ## MAR: sequence fidelity distinguishes similar endpoints
@@ -58,7 +58,7 @@ The performance-mode trial is retained as a separate run; it is not substituted 
 
 Both runs reach a highly ordered endpoint, while the defined sequence-gate score separates their histories. This is the reported result behind MAR's emphasis on preserving staged causal structure.
 
-The paper also describes 40 randomized runs per protocol. This table is the detailed run, not an aggregate of those runs. [Machine-readable transcription](data/mar-reported-comparison.csv) identifies values transcribed from the paper; the original trace and randomized-run files were not recovered in this review. The comparison concerns a classical control model, with physical substrate validation tracked separately.
+The paper also describes 40 randomized runs per protocol. This table reproduces the detailed comparison, rather than aggregating those runs. [Machine-readable transcription](data/mar-reported-comparison.csv) identifies values obtained from that paper. The scope of this cited staged-control workload is maintained separately from other MAR execution and device evidence.
 
 <a id="memory-placement"></a>
 ## NUMA placement: a modeled engineering scenario
@@ -71,7 +71,7 @@ The paper also describes 40 randomized runs per protocol. This table is the deta
 | Centralized plus per-token MAR controller | 237.480863 |
 | Dual local workers plus persistent MAR controller | 38.186238 |
 
-[Exact recovered scenario CSV](data/numa-scenarios.csv). These are placement and controller-cost scenarios. They are not measurements of full 236B model inference.
+[Exact recovered scenario CSV](data/numa-scenarios.csv). These rows describe the stated placement and controller-cost scenarios. End-to-end model inference is a distinct workload with separate measurement methods.
 
 ## Verification and provenance
 
