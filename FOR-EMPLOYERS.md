@@ -13,7 +13,7 @@ This profile presents a curated selection of inspectable engineering work. Basic
 | Backend applications | Monument Notes: FastAPI, SQLite, search and private-note encryption | API/storage boundaries, failure handling, tests and deployment requirements. |
 | Systems integration | Factory/LISA, Sentinel and the local core verification receipt | Offline dependencies, supervision, observability, shutdown and target acceptance. |
 | Performance analysis | HP15 CPU/OpenCL source and timing samples; expert-routing CSV | Baselines, allocation overhead, medians, output fidelity and limits of generalization. |
-| AI orchestration | PAION/RIMAC, Omega X and fleet tooling | Routing, retrieval, explicit interfaces and the gap between architecture and deployed behavior. |
+| AI orchestration | PAION/RIMAC, OAIE and fleet tooling | Routing, retrieval and inter-service interfaces across the Factory environment. |
 | Research engineering | MAR sequence comparison and NUMA placement scenarios | Research design, measured workloads, reproducible methods and evidence traceability. |
 | Evidence tooling | Recovery manifests, provenance and receipt workflows | Artifact integrity, traceability, provenance and runtime verification workflows. |
 
