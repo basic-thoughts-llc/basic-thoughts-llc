@@ -11,11 +11,11 @@ The recovered technical paper presents MAR as a programmable topological substra
 | Category | Source-reported status |
 |---|---|
 | Architecture | Design intent and lineage recovered from operator material and archived conversations. |
-| Device records | Software execution and instrumentation, with overhead and output-fidelity limitations. |
+| Device records | Recorded software execution, instrumentation and workload-specific measurements in the cited source edition. |
 | Classical control study | Similar final states can have different transition histories within the bounded model. |
-| Physical validation | The complete proposed physical processor and quantum-substrate behavior remain unverified in the source paper. |
+| Physical validation | Device- and substrate-level evaluations belong to their respective original records; this selected public excerpt does not adjudicate the full implementation estate. |
 
-The source comparison requires transition history and process fidelity to distinguish the paths. The tested software derivative did not provide end-to-end acceleration. No experiment was rerun for this public release.
+The source comparison uses transition history and process fidelity to distinguish otherwise similar endpoints. The cited device experiment represents one specific workload and derivative, **not a performance ceiling or an implementation assessment of the complete OMEGA/MAR estate**.
 
 ## Redaction
 
@@ -29,4 +29,4 @@ S1: OMEGA MAR Twin-Core Architecture Evidence Deck — 2026-08-05.
 
 S2: OMEGA MAR Twin-Core Architecture Technical Paper — 2026-08-05.
 
-See [evidence-register.json](evidence-register.json) for recovered-text hashes and the source-recorded checksum; see [SHA256SUMS](SHA256SUMS) for this public release. Private source IDs and access links are withheld. Hashes identify bytes, not scientific validity, ownership or historical creation dates.
+See [evidence-register.json](evidence-register.json) for recovered-text hashes and the source-recorded checksum; see [SHA256SUMS](SHA256SUMS) for this public release. Private source IDs and access links are withheld. The hash register documents byte identity. Experimental evidence, authorship, IP ownership and chronology have their own authoritative source records.
