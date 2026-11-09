@@ -4,7 +4,7 @@ Every materialized fractal VM contains one modeled graphene–microtubule oscill
 
 ![Recorded seven-case CPU/NumPy batching comparison on host Red](benchmark-profile.svg)
 
-[Recorded timings and implementation inputs](results.json) · [Original experimental visualization](simulation.png)
+[Recorded timings and implementation inputs](results.json) · [Experiment implementation](run.py)
 
 ## Reproduce
 
