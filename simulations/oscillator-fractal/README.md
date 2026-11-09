@@ -2,7 +2,9 @@
 
 Every materialized fractal VM contains one modeled graphene–microtubule oscillator, assigned four logical qubits (16 complex128 amplitudes). Horizontal and vertical recursion addresses are retained separately. The materialized frontier grows from 4 to 16,384 VMs.
 
-![Measured simulation](simulation.png)
+![Recorded seven-case CPU/NumPy batching comparison on host Red](benchmark-profile.svg)
+
+[Recorded timings and implementation inputs](results.json) · [Original experimental visualization](simulation.png)
 
 ## Reproduce
 
