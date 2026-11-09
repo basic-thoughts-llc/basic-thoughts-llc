@@ -27,7 +27,6 @@ Created by **Benjamin Thomas Murphy**, the work spans system design, software im
 | :--- | :--- |
 | **MAR** | Twin-core programmable-substrate architecture, staged transitions, and compute-placement experiments. |
 | **PAION / RIMAC** | Agent and routing architecture that interfaces with the wider OMEGA environment. |
-| **Omega X** | Acquisition, intake, and retrieval-augmented knowledge workflows. |
 | **BTOL & LISA** | Governed state transitions, operational telemetry, and human-readable system interfaces. |
 | **Monument** | Interactive notes, search, and archive workflows for users and operators. |
 | **Factory** | The operating environment in which these systems interoperate. |
