@@ -12,7 +12,6 @@ flowchart TB
     O --- F["Factory · operating environment"]
     F --- M["MAR · twin-core substrate architecture"]
     F --- P["PAION / RIMAC · agents and routing"]
-    F --- X["Omega X · acquisition and retrieval"]
     F --- B["BTOL · governed state transitions"]
     F --- L["LISA · operational interfaces and telemetry"]
     F --- N["Monument · notes, search, and archive"]
@@ -32,9 +31,9 @@ Related expert-routing work studies execution order, topology caching, and memor
 
 The physical architecture, classical control comparison, routing proxy, and device benchmark are distinct artifacts. Their connection is explained here without treating one as the implementation of another.
 
-## PAION / RIMAC and Omega X
+## PAION / RIMAC and acquisition workflows
 
-PAION / RIMAC covers the agent and routing architecture. Omega X covers acquisition, intake, and retrieval. They supply orchestration and knowledge functions within the larger Factory environment and may interface with MAR. The August 5 architecture paper explicitly preserves their separate lineages.
+PAION / RIMAC covers agent and routing architecture. Acquisition, intake and retrieval functions are mapped to their actual implementation source records and Factory interfaces, without introducing an unapproved named product. The August 5 architecture paper documents related architecture lineage.
 
 ## BTOL and LISA
 
